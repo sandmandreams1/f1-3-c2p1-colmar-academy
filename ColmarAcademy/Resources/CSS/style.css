@@ -1,0 +1,393 @@
+/*Sandy, tshoot logo issues and test on mobile..try the other colors but Josh likes this
+I am choosing Arial because if languages are a consideration, my experience is that printing off to pdfs is unreliable otherwise.*/
+/*<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:700,700i,400i,400,600|Playfair+Display:700,700i,400i,400|Raleway:600,700,800,400,300,200"/>*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,700i,400i,400,600|Playfair+Display:700,700i,400i,400|Raleway:600,700,800,400,300,200');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: arial;
+
+  /*font-family: sans-serif;*/
+background-color: #e0dbc7;
+/*background-color: maroon;*/
+/*color: white;*/
+/* very beautiful bluee  background-color: blue; */
+/*background-color: #0047AB;*/
+
+}
+
+/*.oxygen {
+  font-family: "ARIAL", sans-serif;
+}*/
+
+
+
+a {
+
+  color: #003249;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 2px solid #003249;
+  /*tshooting here */
+ /*background-image: url('c:/mytimes/resources/css/img-story-main.png');*/
+ /*background-image: url('c:/mfamreunion/resources/css/pigroast.png');*/
+}
+
+.picbox-logo {
+  display: flex;
+}
+
+.logo1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.logo2 {
+  text-transform: uppercase;
+}
+
+#desktop {
+  display: block;
+}
+
+#desktop a {
+  margin-left: 16px;
+}
+
+#mobile {
+  display: none;
+}
+
+#learn {
+/*background-color: #e0dbc7;*/
+/* this is the rich dark blue background-color: #003249;*/
+/*  background-color: #007EA7;*/
+ background-color: gray;
+/*background-color: maroon;*/
+
+border-color: gray;
+ /*background-image: url('c:/mytimes/resources/css/img-story-main.png');*/
+  padding: 32px 24px;
+  display: flex;
+}
+
+#learn h1 {
+  font-family: Arial;
+  color: white;
+  font-size: 1.5rem;
+/*  font-size: 2rem;*/
+/*  line-height: 0.8rem;*/
+/*  line-height: 1.8rem;*/
+}
+
+#learn h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+
+button {
+  background-color: #003249;
+  color: #CCDBDC;
+  border: 0;
+ font-family; arial;
+  color: white;
+  font-size: 1rem;
+  padding: 8px 0;
+  /*border: 2px solid #003249;*/
+  border: 2px solid gray;
+}
+
+button:hover {
+   background-image: url('c:/mytimes/resources/css/img-story-main.png');
+/*background-color: #80CED7;*/
+color: white;
+/*  color: #003249;*/
+}
+
+.picbox-img-header {
+  width: 60%;
+  height: auto;
+}
+
+.img-header {
+  width: 100%;
+  height: auto;
+}
+
+.picbox-learn {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+#practice {
+  display: flex;
+}
+
+#practice h1 {
+  font-family: "arial", serif;
+  /*font-family: "wingdings", serif;*/
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin: 32px 0 24px 0;
+}
+
+#practice h3 {
+  font-family: "arial", serif;
+  font-size: 1.5rem;
+}
+
+#practice h4 {
+font-family: "arial", fantasy;
+font-size: 0.8rem;
+margin: 8px 0;
+}
+
+#practice a {
+  text-decoration: underline;
+}
+
+#practice a:hover {
+  text-decoration: none;
+}
+
+.picbox-practice-main {
+  padding: 32px 24px;
+/*  border-right: 1px solid #007EA7;*/
+  border-right: 1px solid #003249;
+}
+
+.picbox-img-practice {
+  width: 100%;
+  height: auto;
+}
+
+.img-practice {
+  width: 100%;
+  height: auto;
+}
+
+.quoted {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.picbox-campus-info {
+  min-width: 423px;
+}
+
+.campus-info-single {
+  display: flex;
+  min-height: 168px;
+/*  border-bottom: 1px solid #007EA7;*/
+  border-bottom: 1px solid #003249;
+}
+
+.picbox-img-campus-info {
+  max-width: 33%;
+  height: auto;
+  margin: 16px;
+}
+
+.img-campus-info {
+  width: 100%;
+  height: auto;
+}
+
+.img-campus-info-mobile {
+  display: none;
+}
+
+.campus-info-text {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.popcolor {
+/*background-color: maroon;*/
+  background-color: gray;
+/*  background-color: #e0dbc7;*/
+
+}
+
+#learning {
+  border-color: #e0dbc7;
+/*background-color: maroon;*/
+  background-color: gray;
+  padding-bottom: 16px;
+}
+
+#learning h1 {
+  font-family: "arial", serif;
+  font-size: 2rem;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
+
+#learning h2 {
+  font-family: "arial", serif;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+#learning h3 {
+  font-family: "arial", serif;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.picbox-courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+.picbox-course {
+/*  background-color: #e0dbc7;*/
+/*background-color: #CCDBDC;*/
+/*background-color: gray;*/
+background-color: white;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+
+.picbox-course-txt {
+  padding: 16px 16px;
+}
+
+.picbox-course-img {
+  width: 100%;
+  height: auto;
+}
+
+.course-img {
+  width: 100%;
+  height: auto;
+}
+
+#thesis h1 {
+  font-family: "arial", serif;
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+
+#thesis h3 {
+  font-family: "arial", serif;
+  font-size: 1.5rem;
+}
+
+#thesis h4 {
+  font-family: "arial", sans-serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+.picbox-thesis {
+  width: 100%;
+  display: flex;
+}
+
+.picbox-vid {
+  height: auto;
+  width: 100%;
+  padding-left: 24px;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.picbox-thesis-txt {
+  margin: 24px 0 32px 24px;
+}
+
+.picbox-thesis-txt p {
+  margin-top: 16px;
+}
+
+.picbox-thesis-info {
+  min-width: 423px;
+  margin-left: 16px;
+}
+
+.thesis-info-single {
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+
+.picbox-thesis-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-info-txt {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+footer {
+  background-color: #e0dbc7;
+  color: #003249;
+  padding: 0 24px;
+/*  border-top: 2px solid #003249;*/
+  border-top: 2px solid maroon;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy {
+  display: block;
+  padding: 16px 0;
+}
+
+.links {
+}
+
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
